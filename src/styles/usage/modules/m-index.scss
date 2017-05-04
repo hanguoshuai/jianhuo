@@ -1,0 +1,24 @@
+
+#app{
+    height:100%;
+    width:100%;
+    .m-index{
+    height:100%;
+    @include flexbox();
+    @include flex-direction(column);
+    
+    header{
+        height:44px;
+        background:red;
+    }
+    section{
+        @include flex();
+        background:gray;
+    }
+    nav{
+        height:44px;
+        background:green;
+    }
+}
+}
+
