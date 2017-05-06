@@ -1,6 +1,6 @@
-<template lang="html">
+<template lang="">
   <div class="">
-    list
+    my
   </div>
 </template>
 
