@@ -4,11 +4,11 @@ import Vue from 'vue'
 
 require('./styles/app.scss')
 Vue.config.productionTip = false
-import index from './scripts/components/index.vue'
+
 /* eslint-disable no-new */
+import router from './scripts/router'
 new Vue({
   el: '#app',
-  components: { 
-    index:index
-   }
+  router,
+  template:'<router-view></router-view>'
 })

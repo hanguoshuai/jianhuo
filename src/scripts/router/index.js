@@ -1,15 +1,26 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-
+import Index from '@/scripts/components/index/index'
+import Banner from '@/scripts/components/index/banner'
+import List from '@/scripts/components/fenlei/list'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      component: Index,
+      redirect:'Banner',
+      children: [
+        {
+          path: 'banner',
+          component: Banner
+        },
+        {
+          path:'list',
+          component:List
+        }
+      ]
     }
   ]
 })
