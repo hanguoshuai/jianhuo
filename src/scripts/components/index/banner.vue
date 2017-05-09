@@ -1,5 +1,12 @@
 <template lang="html">
-  <div class="">
+  <div class="outer">
+    <header class='yo-header  yo-header-a'>
+        <h2 class="title">尖货</h2>
+        <span class="regret yo-ico">&#xe610;</span>
+        <span class="affirm yo-ico">&#xf067;</span>
+    </header>
+<div class="indexOut">
+
 
 
   <mt-swipe :auto="6000">
@@ -21,15 +28,29 @@
   </mt-swipe>
 
   <homenav />
-    
+  <globalGoods />
+  <indexList />
+  <moreexciting />
+  </div>
   </div>
 </template>
 
 <script>
   import Vue from 'vue'
   import { Swipe, SwipeItem } from 'mint-ui'
+
   import Homenav from './home_nav.vue'
   Vue.component('homenav',Homenav)
+
+  import globalGoods from './globalGoods.vue'
+  Vue.component('globalGoods',globalGoods)
+
+  import IndexList from './indexList.vue'
+  Vue.component('indexList',IndexList)
+
+  import MoreExciting from './moregoods.vue'
+  Vue.component('moreexciting',MoreExciting)
+
   Vue.component(Swipe.name, Swipe)
   Vue.component(SwipeItem.name, SwipeItem)
   export default {
