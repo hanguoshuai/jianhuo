@@ -1,8 +1,12 @@
 <template lang="html">
   <div class="">
+    <header class='yo-header  yo-header-a'>
+        <h2 class="title">尖货</h2>
+        <span class="regret yo-ico">&#xe610;</span>
+        <span class="affirm yo-ico">&#xf067;</span>
+    </header>
 
-
-  <mt-swipe :auto="6000">
+  <mt-swipe :auto="6000" class="m-index_banner">
     <mt-swipe-item>
         <img src="http://cms.91xsj.com/img/2017/04/19/a3f5f4c0edba4d8ca64ecc3fa9eda64d.jpg">
     </mt-swipe-item>
@@ -21,7 +25,7 @@
   </mt-swipe>
 
   <homenav />
-    
+
   </div>
 </template>
 

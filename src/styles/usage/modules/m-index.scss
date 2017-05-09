@@ -4,7 +4,7 @@
   $bgcolor: #fff,
   $item-ico-color: #3e3a39,
   $border-width: 0,
-  $color: #ff4a4a,
+  $color: #f00,
   $font-size: .23rem
 ){
   .regret{
@@ -46,6 +46,12 @@
             }
           }
         }
+
+
+
+
+
+
         .home_nav{
           @include flexbox();
           height: .95rem;
