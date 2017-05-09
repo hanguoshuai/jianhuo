@@ -2,7 +2,7 @@
   <div class="m-land">
     <img src="http://s.ccigmall.com/bcw/commons/img/user/login_bg.jpg" alt="">
     <div class="headly">
-      <a href="#">
+      <a href="#" onclick="window.history.go(-1)">
         <span>
           <b></b>
           <i></i>
@@ -26,7 +26,8 @@
         <a href="#" class="code">显示</a>
       </div>
       <div class="login-g">
-
+          <input type="checkbox" name="" value="">
+          <a href="#">同意《尖货全球购服务协议》</a>
       </div>
       <div class="login-btn">
         <button type="button" class="btn" name="button">注册</button>

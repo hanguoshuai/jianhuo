@@ -2,7 +2,7 @@
   <div class="m-land">
     <img src="http://s.ccigmall.com/bcw/commons/img/user/login_bg.jpg" alt="">
     <div class="headly">
-      <a href="#">
+      <a href="#" onclick="window.history.go(-1)">
         <span>
           <b></b>
           <i></i>
