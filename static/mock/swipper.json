@@ -1,0 +1,137 @@
+{
+  "count": 10,
+  "start": 0,
+  "total": 200,
+  "books": [
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 116181,
+        "average": "8.0",
+        "min": 0
+      },
+      "title": "何以笙箫默",
+      "id": "1461903",
+      "author": [
+        "顾漫"
+      ]
+    },
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 75788,
+        "average": "8.1",
+        "min": 0
+      },
+      "title": "微微一笑很倾城",
+      "id": "3879301",
+      "author": [
+        "顾漫"
+      ]
+    },
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 62402,
+        "average": "8.1",
+        "min": 0
+      },
+      "title": "三生三世 十里桃花",
+      "id": "3426869",
+      "author": [
+        "唐七公子"
+      ]
+    },
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 37888,
+        "average": "8.6",
+        "min": 0
+      },
+      "title": "华胥引（全二册）",
+      "id": "5916880",
+      "author": [
+        "唐七公子"
+      ]
+    },
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 79830,
+        "average": "7.9",
+        "min": 0
+      },
+      "title": "致我们终将逝去的青春",
+      "id": "2209098",
+      "author": [
+        "辛夷坞"
+      ]
+    },
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 21562,
+        "average": "7.5",
+        "min": 0
+      },
+      "title": "岁月是朵两生花",
+      "id": "4115227",
+      "author": [
+        "唐七公子"
+      ]
+    },
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 35550,
+        "average": "8.0",
+        "min": 0
+      },
+      "title": "佳期如梦",
+      "id": "1962929",
+      "author": [
+        "匪我思存"
+      ]
+    },
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 37248,
+        "average": "7.7",
+        "min": 0
+      },
+      "title": "原来你还在这里",
+      "id": "2331434",
+      "author": [
+        "辛夷坞"
+      ]
+    },
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 34124,
+        "average": "8.1",
+        "min": 0
+      },
+      "title": "步步惊心",
+      "id": "1812439",
+      "author": [
+        "桐华"
+      ]
+    },
+    {
+      "rating": {
+        "max": 10,
+        "numRaters": 20922,
+        "average": "7.9",
+        "min": 0
+      },
+      "title": "大漠谣",
+      "id": "1925232",
+      "author": [
+        "桐华"
+      ]
+    }
+  ]
+}

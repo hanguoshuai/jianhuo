@@ -1,10 +1,6 @@
 <template>
     <div class='m-index'>
-        <header class='yo-header  yo-header-a'>
-            <h2 class="title">尖货</h2>
-            <span class="regret yo-ico">&#xe610;</span>
-            <span class="affirm yo-ico">&#xf067;</span>
-        </header>
+        
         <section>
             <router-view></router-view>
         </section>
