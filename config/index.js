@@ -28,15 +28,8 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/api': {
-        target: 'http://api.douban.com/',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api': ''
-        }
-      },
       '/mock': {
-          target: 'http://localhost:3000/',
+          target: 'http://localhost:7000/',
           changeOrigin: true,
           pathRewrite: {
             '^/mock': ''

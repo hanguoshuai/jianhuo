@@ -23,10 +23,11 @@
               <img class="lazy" :src="item.img">
             </h3>
             <p class="m-tip_txt" v-html="item.content"></p>
-            <p class="m-tip_share">
-              <a href="javascript:;" id="tip_146736498697667652" class="selected"><i class="sh1"></i>
-                <span id="num_146736498697667652">79</span>
-              </a>
+            <p class="m-tip_share" id="m_share">
+              <span class="selected m-heart" id="dianzan">
+                <span class="sh1"></span>
+                <span v-text="item.zan"></span>
+              </span>
             </p>
         </router-link>
       </ul>
@@ -47,7 +48,21 @@ export default {
       arr:''
     }
   },
-
+  methods: {
+    zan: function () {
+      var m_share = document.getElementById('m_share');
+      m_share.onclick = function preventDefa(e){
+        if(window.event){
+          //IE中阻止函数器默认动作的方式
+          window.event.returnValue = false;
+        }
+        else{
+          //阻止默认浏览器动作(W3C)
+          e.preventDefault();
+        }
+      }
+    }
+  },
   props: ['uri', 'isRefresh'],
 
   mounted: function () {
@@ -62,6 +77,9 @@ export default {
       }
     })
   }
+}
+window.onload=function(){
+  var btn = document.getElementById('btn');
 }
 </script>
 
