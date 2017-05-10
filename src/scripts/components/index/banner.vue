@@ -1,4 +1,5 @@
 <template lang="html">
+
   <div class="outer">
     <div class='head'>
         <h2 class="title">尖货</h2>
@@ -10,6 +11,7 @@
 
        
   <mt-swipe :auto="6000">
+
     <mt-swipe-item>
         <img src="http://cms.91xsj.com/img/2017/04/19/a3f5f4c0edba4d8ca64ecc3fa9eda64d.jpg">
     </mt-swipe-item>
@@ -28,10 +30,14 @@
   </mt-swipe>
 
   <homenav />
+<<<<<<< HEAD
   <globalGoods />
   <indexList />
   <moreexciting />
   </div>
+=======
+
+>>>>>>> wangpro
   </div>
 </template>
 

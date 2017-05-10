@@ -1,6 +1,10 @@
 <template>
     <div class='m-index'>
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> wangpro
         <section>
             <router-view></router-view>
         </section>

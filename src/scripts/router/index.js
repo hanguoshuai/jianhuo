@@ -6,6 +6,7 @@ import List from '@/scripts/components/fenlei/list'
 import Center from '@/scripts/components/center/center'
 import Cart from '@/scripts/components/cart/cart'
 import My from '@/scripts/components/my/my'
+import centerDetail from '@/scripts/components/center/centerDetail'
 Vue.use(Router)
 
 export default new Router({
@@ -25,7 +26,7 @@ export default new Router({
         },
         {
           path:'center',
-          component:Center
+          component:Center,
         },
         {
           path:'cart',
@@ -35,7 +36,12 @@ export default new Router({
           path:'my',
           component:My
         }
+
       ]
+    },
+    {
+      path:'/centerdetail',
+      component:centerDetail
     }
   ]
 })
