@@ -1,8 +1,9 @@
-let swiper = require('./swipper');
-let list = require('./list');
-module.exports = function(){
-    return {
-        'swiper':swiper,
-        'list':list
-    }
+
+
+let indexdata = require('./indexData.json');
+module.exports=function(){
+  return {
+    'indexdata':indexdata
+  }
 }
+
