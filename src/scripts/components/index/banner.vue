@@ -1,10 +1,10 @@
 <template lang="html">
   <div class="outer">
-    <header class='yo-header  yo-header-a'>
+    <div class='head'>
         <h2 class="title">尖货</h2>
         <span class="regret yo-ico">&#xe610;</span>
         <span class="affirm yo-ico">&#xf067;</span>
-    </header>
+    </div>
 <div class="indexOut">
 
 
