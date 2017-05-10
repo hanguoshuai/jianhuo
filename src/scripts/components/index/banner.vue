@@ -30,14 +30,12 @@
   </mt-swipe>
 
   <homenav />
-<<<<<<< HEAD
+
   <globalGoods />
   <indexList />
   <moreexciting />
   </div>
-=======
 
->>>>>>> wangpro
   </div>
 </template>
 
