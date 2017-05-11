@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/scripts/components/index/index'
 import Banner from '@/scripts/components/index/banner'
+import Search from '@/scripts/components/index/search'
 import List from '@/scripts/components/fenlei/list'
 import Center from '@/scripts/components/center/center'
 import Cart from '@/scripts/components/cart/cart'
@@ -28,6 +29,9 @@ export default new Router({
         {
           path:'list',
           component:List
+        },{
+          path:'search',
+          component:Search
         },
         {
           path:'center',

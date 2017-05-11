@@ -1,19 +1,15 @@
 <template lang="html">
-
-
   <div class="outer">
     <div class='head'>
-        <h2 class="title">尖货</h2>
-        <span class="regret yo-ico">&#xe610;</span>
-        <span class="affirm yo-ico">&#xf067;</span>
+      <span class="regret yo-ico">&#xe610;</span>
+      <h2 class="title">尖货</h2>
+      <router-link tag='span' class="affirm yo-ico" to='/search'>&#xf067;</router-link>
     </div>
 <div class="indexOut">
 
 
 
-       
   <mt-swipe :auto="6000">
-
     <mt-swipe-item>
         <img src="http://cms.91xsj.com/img/2017/04/19/a3f5f4c0edba4d8ca64ecc3fa9eda64d.jpg">
     </mt-swipe-item>
@@ -32,14 +28,10 @@
   </mt-swipe>
 
   <homenav />
-
-
   <globalGoods />
   <indexList />
   <moreexciting />
   </div>
-
-
   </div>
 </template>
 
@@ -66,5 +58,5 @@
   }
 </script>
 
-<style lang="css">
-</style>
+<!-- /*<style lang="css">
+</style>*/ -->
