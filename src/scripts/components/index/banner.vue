@@ -1,5 +1,6 @@
 <template lang="html">
 
+
   <div class="outer">
     <div class='head'>
         <h2 class="title">尖货</h2>
@@ -7,6 +8,7 @@
         <span class="affirm yo-ico">&#xf067;</span>
     </div>
 <div class="indexOut">
+
 
 
        
@@ -31,10 +33,12 @@
 
   <homenav />
 
+
   <globalGoods />
   <indexList />
   <moreexciting />
   </div>
+
 
   </div>
 </template>
@@ -62,5 +66,5 @@
   }
 </script>
 
-<!-- /*<style lang="css">
-</style>*/ -->
+<style lang="css">
+</style>
