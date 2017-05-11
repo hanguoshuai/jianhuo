@@ -33,7 +33,7 @@
                 @include flexbox();
                 @include justify-content(space-between);   
                 li{
-                    width: .93rem;
+                    // width: .93rem;
                     height: 1.22rem;
                     background:#fff;
                     div{
@@ -46,8 +46,10 @@
                           font-size: 12px;
                     }
                     img{
-                        width: .93rem;
-                        height: .93rem;
+                        width:100%;
+                        // height: 100%;
+                        // width: .93rem;
+                        // height: .93rem;
                     }
                 }
             }
