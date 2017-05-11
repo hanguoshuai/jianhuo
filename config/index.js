@@ -28,6 +28,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
+<<<<<<< HEAD
 
       '/api':{
         target:'http://m.91xsj.com/',
@@ -40,6 +41,14 @@ module.exports = {
         target:'http://localhost:7000/',
         pathRewrite:{
           '^/mock':''
+=======
+      '/mock': {
+          target: 'http://localhost:7000/',
+          changeOrigin: true,
+          pathRewrite: {
+            '^/mock': ''
+          }
+>>>>>>> gouwuche
         }
       }
 
